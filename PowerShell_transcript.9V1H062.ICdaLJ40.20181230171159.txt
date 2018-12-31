@@ -1,0 +1,237 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20181230171159
+Username: KMS\phucknguyen
+RunAs User: KMS\phucknguyen
+Configuration Name: 
+Machine: 9V1H062 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 363020
+PSVersion: 5.1.17134.228
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.228
+BuildVersion: 10.0.17134.228
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript starts at: C:\Users\phucknguyen\Documents\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt
+
+PS:C:\Users\phucknguyen>
+PS>c .\Documents\
+
+
+    Directory: C:\Users\phucknguyen\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        27-Sep-18  11:50 AM                SuperPuTTY
+d-----        20-Sep-18   7:10 AM                Visual Studio 2017
+d-----        14-Dec-18   2:47 PM                WindowsPowerShell
+-a----        29-Aug-18   2:46 PM            118 .gitignore
+-a----        14-Dec-18   1:26 PM          10108 pgadmin.log
+-a----        29-Dec-18   9:12 PM            995 PowerShell_transcript.9V1H062.+GFidqj7.20181229211222.txt
+-a----        23-Dec-18  11:07 AM           3366 PowerShell_transcript.9V1H062.+z1fO3OS.20181223105224.txt
+-a----        23-Dec-18  10:51 AM           1037 PowerShell_transcript.9V1H062.3NxPePaO.20181223105052.txt
+-a----        23-Dec-18  12:45 PM           1428 PowerShell_transcript.9V1H062.4Ayu2ur1.20181223124502.txt
+-a----        23-Dec-18  12:41 PM           1428 PowerShell_transcript.9V1H062.4fdvo5IU.20181223124119.txt
+-a----        23-Dec-18  10:36 AM            896 PowerShell_transcript.9V1H062.54SiDT_i.20181223103454.txt
+-a----        29-Dec-18   9:12 PM           1702 PowerShell_transcript.9V1H062.5w9GH+2K.20181229211234.txt
+-a----        24-Dec-18   9:04 AM          11184 PowerShell_transcript.9V1H062.5xwWVVMy.20181224082606.txt
+-a----        29-Dec-18   9:12 PM           1296 PowerShell_transcript.9V1H062.a1ZeRddW.20181229211218.txt
+-a----        23-Dec-18  12:37 PM           1428 PowerShell_transcript.9V1H062.a8udconY.20181223123720.txt
+-a----        30-Dec-18   4:50 PM            868 PowerShell_transcript.9V1H062.b0J7XvdQ.20181230164955.txt
+-a----        25-Dec-18   8:39 PM            881 PowerShell_transcript.9V1H062.eXKwuBeK.20181225192128.txt
+-a----        24-Dec-18   8:10 PM            959 PowerShell_transcript.9V1H062.f5LTxb09.20181224201047.txt
+-a----        29-Dec-18   9:12 PM           1702 PowerShell_transcript.9V1H062.f8hjUIkQ.20181229211229.txt
+-a----        30-Dec-18  12:07 AM          24475 PowerShell_transcript.9V1H062.foCs7rTs.20181229211304.txt
+-a----        23-Dec-18  12:44 PM           1428 PowerShell_transcript.9V1H062.fv5R1q6n.20181223124453.txt
+-a----        30-Dec-18   4:57 PM            855 PowerShell_transcript.9V1H062.fwy+eN1P.20181230165740.txt
+-a----        23-Dec-18  12:45 PM           1428 PowerShell_transcript.9V1H062.GlLBYTrN.20181223124506.txt
+-a----        30-Dec-18   4:49 PM            868 PowerShell_transcript.9V1H062.Gyi6GQvU.20181230164845.txt
+-a----        23-Dec-18  10:18 AM           6330 PowerShell_transcript.9V1H062.HcdCiuiq.20181223101815.txt
+-a----        30-Dec-18   5:08 PM            855 PowerShell_transcript.9V1H062.hKjbXoLR.20181230170852.txt
+-a----        23-Dec-18   1:10 PM          25267 PowerShell_transcript.9V1H062.HUyrup9a.20181223110803.txt
+-a----        30-Dec-18   5:01 PM            855 PowerShell_transcript.9V1H062.HwCcaxl+.20181230170111.txt
+-a----        30-Dec-18   5:12 PM            739 PowerShell_transcript.9V1H062.HxGsp0HL.20181230171159.txt
+-a----        25-Dec-18   3:17 PM           3479 PowerShell_transcript.9V1H062.IA3Qt46_.20181225150245.txt
+
+
+PS:C:\Users\phucknguyen\Documents>
+PS>mkdir transcripts
+
+
+    Directory: C:\Users\phucknguyen\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        30-Dec-18   5:12 PM                transcripts
+
+
+PS:C:\Users\phucknguyen\Documents>
+PS>mv *.txt .\transcripts\
+mv : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ mv *.txt .\transcripts\
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\phuckn...81230171159.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ mv *.txt .\transcripts\
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\phuckn...81230171159.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ mv *.txt .\transcripts\
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\phuckn...81230111239.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ mv *.txt .\transcripts\
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\phuckn...81230111239.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+mv : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ mv *.txt .\transcripts\
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\phuckn...81229235257.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ mv *.txt .\transcripts\
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\phuckn...81229235257.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS:C:\Users\phucknguyen\Documents>
+PS>l
+
+
+    Directory: C:\Users\phucknguyen\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        27-Sep-18  11:50 AM                SuperPuTTY
+d-----        30-Dec-18   5:12 PM                transcripts
+d-----        20-Sep-18   7:10 AM                Visual Studio 2017
+d-----        14-Dec-18   2:47 PM                WindowsPowerShell
+-a----        29-Aug-18   2:46 PM            118 .gitignore
+-a----        14-Dec-18   1:26 PM          10108 pgadmin.log
+-a----        30-Dec-18   5:12 PM           4273 PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt
+-a----        30-Dec-18  11:21 AM           3371 PowerShell_transcript.9V1H062.rKx1BhMt.20181230111239.txt
+-a----        30-Dec-18  12:25 AM           5546 PowerShell_transcript.9V1H062.WwZ4OW1l.20181229235257.txt
+PS:C:\Users\phucknguyen\Documents>
+PS>l
+
+
+    Directory: C:\Users\phucknguyen\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        27-Sep-18  11:50 AM                SuperPuTTY
+d-----        30-Dec-18   5:12 PM                transcripts
+d-----        20-Sep-18   7:10 AM                Visual Studio 2017
+d-----        14-Dec-18   2:47 PM                WindowsPowerShell
+-a----        29-Aug-18   2:46 PM            118 .gitignore
+-a----        14-Dec-18   1:26 PM          10108 pgadmin.log
+-a----        30-Dec-18   5:12 PM           7489 PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt
+-a----        30-Dec-18  11:21 AM           3371 PowerShell_transcript.9V1H062.rKx1BhMt.20181230111239.txt
+-a----        30-Dec-18  12:25 AM           5546 PowerShell_transcript.9V1H062.WwZ4OW1l.20181229235257.txt
+PS:C:\Users\phucknguyen\Documents>
+PS>mv .\transcripts\ powershell_transcripts
+PS:C:\Users\phucknguyen\Documents>
+PS>l
+
+
+    Directory: C:\Users\phucknguyen\Documents
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        30-Dec-18   5:12 PM                powershell_transcripts
+d-----        27-Sep-18  11:50 AM                SuperPuTTY
+d-----        20-Sep-18   7:10 AM                Visual Studio 2017
+d-----        14-Dec-18   2:47 PM                WindowsPowerShell
+-a----        29-Aug-18   2:46 PM            118 .gitignore
+-a----        14-Dec-18   1:26 PM          10108 pgadmin.log
+-a----        30-Dec-18   5:12 PM           7489 PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt
+-a----        30-Dec-18  11:21 AM           3371 PowerShell_transcript.9V1H062.rKx1BhMt.20181230111239.txt
+-a----        30-Dec-18  12:25 AM           5546 PowerShell_transcript.9V1H062.WwZ4OW1l.20181229235257.txt
+PS:C:\Users\phucknguyen\Documents>
+PS>code .\.gitignore
+
+PS:C:\Users\phucknguyen\Documents>
+PS>c .\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt
+PS>TerminatingError(Set-Location): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path '.\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt' because it does not exist."
+>> TerminatingError(Set-Location): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path '.\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt' because it does not exist."
+>> TerminatingError(Set-Location): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path '.\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt' because it does not exist."
+>> TerminatingError(Set-Location): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path '.\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt' because it does not exist."
+The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find path '.\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt' because it does not exist.
+Set-Location : Cannot find path '.\PowerShell_transcript.9V1H062.ICdaLJ40.20181230171159.txt' because it does not exist.
+At C:\Users\phucknguyen\src\ps1\c.ps1:14 char:3
++   Set-Location "$dir"
++   ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\PowerShell_tr...81230171159.txt:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS:C:\Users\phucknguyen\Documents>
+PS>c .\powershell_transcripts\
+
+
+    Directory: C:\Users\phucknguyen\Documents\powershell_transcripts
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        29-Dec-18   9:12 PM            995 PowerShell_transcript.9V1H062.+GFidqj7.20181229211222.txt
+-a----        23-Dec-18  11:07 AM           3366 PowerShell_transcript.9V1H062.+z1fO3OS.20181223105224.txt
+-a----        23-Dec-18  10:51 AM           1037 PowerShell_transcript.9V1H062.3NxPePaO.20181223105052.txt
+-a----        23-Dec-18  12:45 PM           1428 PowerShell_transcript.9V1H062.4Ayu2ur1.20181223124502.txt
+-a----        23-Dec-18  12:41 PM           1428 PowerShell_transcript.9V1H062.4fdvo5IU.20181223124119.txt
+-a----        23-Dec-18  10:36 AM            896 PowerShell_transcript.9V1H062.54SiDT_i.20181223103454.txt
+-a----        29-Dec-18   9:12 PM           1702 PowerShell_transcript.9V1H062.5w9GH+2K.20181229211234.txt
+-a----        24-Dec-18   9:04 AM          11184 PowerShell_transcript.9V1H062.5xwWVVMy.20181224082606.txt
+-a----        29-Dec-18   9:12 PM           1296 PowerShell_transcript.9V1H062.a1ZeRddW.20181229211218.txt
+-a----        23-Dec-18  12:37 PM           1428 PowerShell_transcript.9V1H062.a8udconY.20181223123720.txt
+-a----        30-Dec-18   4:50 PM            868 PowerShell_transcript.9V1H062.b0J7XvdQ.20181230164955.txt
+-a----        25-Dec-18   8:39 PM            881 PowerShell_transcript.9V1H062.eXKwuBeK.20181225192128.txt
+-a----        24-Dec-18   8:10 PM            959 PowerShell_transcript.9V1H062.f5LTxb09.20181224201047.txt
+-a----        29-Dec-18   9:12 PM           1702 PowerShell_transcript.9V1H062.f8hjUIkQ.20181229211229.txt
+-a----        30-Dec-18  12:07 AM          24475 PowerShell_transcript.9V1H062.foCs7rTs.20181229211304.txt
+-a----        23-Dec-18  12:44 PM           1428 PowerShell_transcript.9V1H062.fv5R1q6n.20181223124453.txt
+-a----        30-Dec-18   4:57 PM            855 PowerShell_transcript.9V1H062.fwy+eN1P.20181230165740.txt
+-a----        23-Dec-18  12:45 PM           1428 PowerShell_transcript.9V1H062.GlLBYTrN.20181223124506.txt
+-a----        30-Dec-18   4:49 PM            868 PowerShell_transcript.9V1H062.Gyi6GQvU.20181230164845.txt
+-a----        23-Dec-18  10:18 AM           6330 PowerShell_transcript.9V1H062.HcdCiuiq.20181223101815.txt
+-a----        30-Dec-18   5:08 PM            855 PowerShell_transcript.9V1H062.hKjbXoLR.20181230170852.txt
+-a----        23-Dec-18   1:10 PM          25267 PowerShell_transcript.9V1H062.HUyrup9a.20181223110803.txt
+-a----        30-Dec-18   5:01 PM            855 PowerShell_transcript.9V1H062.HwCcaxl+.20181230170111.txt
+-a----        30-Dec-18   5:12 PM            739 PowerShell_transcript.9V1H062.HxGsp0HL.20181230171159.txt
+-a----        25-Dec-18   3:17 PM           3479 PowerShell_transcript.9V1H062.IA3Qt46_.20181225150245.txt
+-a----        23-Dec-18  12:44 PM           1428 PowerShell_transcript.9V1H062.IFczasqm.20181223124457.txt
+-a----        23-Dec-18  12:52 PM            904 PowerShell_transcript.9V1H062.IynRlP05.20181223125251.txt
+-a----        28-Dec-18   5:37 PM          17558 PowerShell_transcript.9V1H062.jfkE77vc.20181225192137.txt
+-a----        24-Dec-18   8:10 AM           1451 PowerShell_transcript.9V1H062.kGQ1LLav.20181224080648.txt
+-a----        23-Dec-18   3:57 PM           8709 PowerShell_transcript.9V1H062.KMq+XQak.20181223154024.txt
+
+
+PS:C:\Users\phucknguyen\Documents\powershell_transcripts>
+PS>code .gitignore
+
+PS:C:\Users\phucknguyen\Documents\powershell_transcripts>
+PS>exit
+**********************
+Windows PowerShell transcript end
+End time: 20181230171952
+**********************
