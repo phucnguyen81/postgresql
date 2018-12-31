@@ -1,3 +1,6 @@
+# Resources
+https://dochub.com/phucknguyen/kogkk6/postgresql-cookbook-2015-pdf?pg=24
+
 # Setup
 - install postgresql
 - login with root user postgres (e.g. use pgadmin)
